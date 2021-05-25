@@ -1,0 +1,112 @@
+:root{
+	--preto: #141414;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Elementos Base*/
+
+body{
+	background: var(--preto);
+	font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: white;
+}
+
+header .container{
+	display: flex;
+	align-items: center;
+}
+
+h2 img{
+	width: 4.5em;
+	height: 2.2em;
+	margin-top: 10px;
+	margin-left: 43px;
+	margin-right: 33px;
+}
+
+header nav a{
+	text-decoration: none;
+	color: #e5e5e5;
+	font-size: 14.5px;
+	margin-right: 15px;
+}
+
+header nav a:hover{
+	color: #AAA;
+	transition: 0.4s;
+}
+
+/*Capa Principal*/
+
+.capa-principal{
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../img/hollow-knight.jpg);
+	height: 550px;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.capa-principal .container{
+	margin-left: 55px;
+}
+
+.titulo{
+	font-size: 40px;
+}
+
+.capa-principal .descricao{
+	margin-top: 20px;
+	margin-bottom: 16px;
+}
+
+.botao-jogar{
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	padding: 0.7rem 1.6rem;
+	margin-right: 5px;
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+.botao-jogar:hover{
+	background-color: rgb(200, 200, 200);
+}
+
+.botao-informacoes{
+	background-color: rgba(109, 109, 110, 0.7);
+	border: none;
+	cursor: pointer;
+	color: white;
+	padding: 0.7rem 1.6rem;
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+.botao-informacoes:hover{
+	background-color: rgba(80, 80, 80, .7);
+}
+
+i{
+	margin-right: 0.7rem;
+}
+
+.box{
+	height: 100%;
+	width: 100%;
+	display: block;
+	border-radius: 3px;
+}
+
+.box:hover{
+	cursor: pointer;
+}
